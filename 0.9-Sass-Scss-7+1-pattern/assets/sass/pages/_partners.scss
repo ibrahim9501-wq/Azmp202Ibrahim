@@ -1,0 +1,24 @@
+#partners {
+    background-color: $bg-color2;
+
+    .partners {
+        padding: 3rem 0;
+
+        .row {
+            justify-content: center;
+
+            @include for_phone_only {
+                justify-content: center;
+                align-items: center;
+            }
+
+            .col-12 {
+                display: flex;
+                gap: 20px;
+                justify-content: center;
+
+
+            }
+        }
+    }
+}
